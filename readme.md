@@ -2,7 +2,6 @@
 
 #### Techonologies
 - SQL Query Builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, and Oracle  - http://knexjs.org/
-
 - Web framework for Node.js - http://expressjs.com/
 - JavaScript ORM  for Node.js - http://bookshelfjs.org/
 - API documentation - https://www.npmjs.com/package/swagger-jsdoc
