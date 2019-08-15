@@ -1,55 +1,30 @@
-MySQL, Express, React/Redux and Node Boilerplate in ES6/ES7
+## React-node
 
-## Get Started
+#### Techonologies
+- SQL Query Builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, and Oracle  - http://knexjs.org/
 
-### 1. Prerequisites
+- Web framework for Node.js - http://expressjs.com/
+- JavaScript ORM  for Node.js - http://bookshelfjs.org/
+- API documentation - https://www.npmjs.com/package/swagger-jsdoc
+- Redux Form - https://www.npmjs.com/package/redux
+- React - https://www.npmjs.com/package/react
 
-- [NodeJs](https://nodejs.org/en/)
-- [NPM](https://npmjs.org/) - Node package manager
+------------
 
-### 2. Installation
+#### Installation
+ make .env (edit it with your secret key and database information) see example
+ npm install
+ npm run migrate
+ 
+ ``npm run build (For development)``
 
-On the command prompt run the following commands:
-
-``` 
- $ git clone https://github.com/Bikranshu/express-react-boilerplate.git
- $ cd express-react-boilerplate
- $ cp .env.example .env (edit it with your secret key and database information)
- $ npm install
- $ npm run migrate
- ```
- Finally, start and build the application:
+ ``npm run build:prod (For production)``
+ 
+ 
+ 
+ for watch mode
  
  ```
- $ npm run build (For development)
- $ npm run build:prod (For production)
-```
-
-List of NPM Commands:
- 
-  ```
-  $ npm run lint       # linting
-  $ npm run clean      # remove dist and node_modules folder and install dependencies
+ npm run webpack:watch
+ npm run start
  ```
-
-### 3. Usage
-
-URL : http://localhost:3000/
-
-Navigate to http://localhost:3000/swagger for the API documentation.
-
-### 4. Useful Link
-- Web framework for Node.js - [Express](http://expressjs.com/)
-- JavaScript ORM  for Node.js - [Bookshelf](http://bookshelfjs.org/)
-- SQL Query Builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, and Oracle - [Knex](http://knexjs.org/)
-- JSON Web Tokens(jwt) - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-- Logging Library - [Winston](https://www.npmjs.com/package/winston)
-- Object schema validation  - [Joi](https://www.npmjs.com/package/joi)
-- API documentation using [swagger-jsdoc](https://www.npmjs.com/package/swagger-jsdoc) and [swagger-ui](https://www.npmjs.com/package/swagger-ui)
-- JavaScript library for building user interfaces - [React](https://facebook.github.io/react/)
-- Predictable state container - [Redux](http://redux.js.org/)
-- A React component library implementing Google's Material Design - [Material-UI](https://material-ui-1dab0.firebaseapp.com/)
-- Redux Form - [Redux Form](http://redux-form.com/8.1.0/)
-- Declarative routing for React - [React-Router](https://reacttraining.com/react-router/)
-- Promise based HTTP client - [Axios](https://github.com/mzabriskie/axios)
-- Code linting tool - [ESLint](http://eslint.org/)
